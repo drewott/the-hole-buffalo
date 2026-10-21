@@ -1,8 +1,28 @@
 import streamlit as st
 from src.valuation import parse_pasted_sigs, tally_site_values
+from pathlib import Path
+import base64
+
+# Add background image to page
+image_path = Path(__file__).parent / "bison.png"
+
+st.write("Looking for image:", image_path)
+st.write("Image exists:", image_path.exists())
+
+image_data = base64.b64encode(image_path.read_bytes()).decode()
+
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background: url("data:image/png;base64,{image_data}") center / cover fixed no-repeat;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.title("The Hole Buffalo")
-
 sigs_paste = st.text_area("Paste sites here.", height=300)
 submit_sigs = st.button("Submit Sigs")
 

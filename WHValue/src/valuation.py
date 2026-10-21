@@ -25,7 +25,10 @@ def parse_pasted_sigs(pasted_sigs, site_data_path=SITE_DATA_PATH):
             })
 
     df = pd.DataFrame(rows)
-
+    if not Path(site_data_path).exists():
+        raise FileNotFoundError(
+            f"Looking for site data at: {Path(site_data_path).resolve()}"
+        )
     with open(site_data_path, "r", encoding="utf-8") as file:
         sites = json.load(file)
 
