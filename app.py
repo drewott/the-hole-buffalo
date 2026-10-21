@@ -7,23 +7,18 @@ import base64
 image_path = Path(__file__).parent / "bison.png"
 image_data = base64.b64encode(image_path.read_bytes()).decode()
 
-'''st.markdown(
+st.markdown(
     f"""
     <style>
     .stApp {{
-        background-image: url("data:image/png;base64,{image_data}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background: url("data:image/png;base64,{image_data}") center / cover fixed no-repeat;
     }}
     </style>
     """,
     unsafe_allow_html=True,
-)'''
+)
 
 st.title("The Hole Buffalo")
-st.image(image_path)
 sigs_paste = st.text_area("Paste sites here.", height=300)
 submit_sigs = st.button("Submit Sigs")
 
