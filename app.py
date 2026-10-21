@@ -3,7 +3,7 @@ from src.valuation import parse_pasted_sigs, tally_site_values
 from pathlib import Path
 import base64
 
-# Add background image
+# Add background image to page
 image_path = Path(__file__).parent / "bison.png"
 image_data = base64.b64encode(image_path.read_bytes()).decode()
 
