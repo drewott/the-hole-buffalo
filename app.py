@@ -23,7 +23,7 @@ st.markdown(
 )
 
 st.title("The Hole Buffalo")
-
+st.image(image_path)
 sigs_paste = st.text_area("Paste sites here.", height=300)
 submit_sigs = st.button("Submit Sigs")
 
