@@ -1,0 +1,292 @@
+[
+    {
+      "Site Name": "Fortification Frontier Stronghold",
+      "Category": "Combat",
+      "Value": 41100000
+    },
+    {
+      "Site Name": "Outpost Frontier Stronghold",
+      "Category": "Combat",
+      "Value": 45100000
+    },
+    {
+      "Site Name": "Solar Cell",
+      "Category": "Combat",
+      "Value": 38500000
+    },
+    {
+      "Site Name": "The Oruze Construct",
+      "Category": "Combat",
+      "Value": 29000000
+    },
+    {
+      "Site Name": "Barren Perimeter Reservoir",
+      "Category": "Gas",
+      "Value": 94969620
+    },
+    {
+      "Site Name": "Token Perimeter Reservoir",
+      "Category": "Gas",
+      "Value": 104651460
+    },
+    {
+      "Site Name": "Minor Perimeter Reservoir",
+      "Category": "Gas",
+      "Value": 145686840
+    },
+    {
+      "Site Name": "Ordinary Perimeter Reservoir",
+      "Category": "Gas",
+      "Value": 184388040
+    },
+    {
+      "Site Name": "Sizable Perimeter Reservoir",
+      "Category": "Gas",
+      "Value": 179201100
+    },
+    {
+      "Site Name": "Bountiful Frontier Reservoir",
+      "Category": "Gas",
+      "Value": 356891640
+    },
+    {
+      "Site Name": "Vast Frontier Reservoir",
+      "Category": "Gas",
+      "Value": 503600280
+    },
+    {
+      "Site Name": "Unsecured Frontier Database",
+      "Category": "Combat Data",
+      "Value": 88400000
+    },
+    {
+      "Site Name": "Unsecured Frontier Receiver",
+      "Category": "Combat Data",
+      "Value": 75100000
+    },
+    {
+      "Site Name": "Forgotten Frontier Quarantine Outpost",
+      "Category": "Combat Relic",
+      "Value": 79400000
+    },
+    {
+      "Site Name": "Forgotten Frontier Recursive Depot",
+      "Category": "Combat Relic",
+      "Value": 92500000
+    },
+    {
+      "Site Name": "Frontier Barracks",
+      "Category": "Combat",
+      "Value": 86700000
+    },
+    {
+      "Site Name": "Frontier Command Post",
+      "Category": "Combat",
+      "Value": 92300000
+    },
+    {
+      "Site Name": "Integrated Terminus",
+      "Category": "Combat",
+      "Value": 55500000
+    },
+    {
+      "Site Name": "Sleeper Information Sanctum",
+      "Category": "Combat",
+      "Value": 84000000
+    },
+    {
+      "Site Name": "Unsecured Frontier Digital Nexus",
+      "Category": "Combat Data",
+      "Value": 130100000
+    },
+    {
+      "Site Name": "Unsecured Fronier Trinary Hub",
+      "Category": "Combat Data",
+      "Value": 91600000
+    },
+    {
+      "Site Name": "Forgotten Fronier Conversion Module",
+      "Category": "Combat Relic",
+      "Value": 146500000
+    },
+    {
+      "Site Name": "Forgotten Fronier Evacuation Center",
+      "Category": "Combat Relic",
+      "Value": 91600000
+    },
+    {
+      "Site Name": "Core Garrison",
+      "Category": "Combat",
+      "Value": 253400000
+    },
+    {
+      "Site Name": "Core Stronghold",
+      "Category": "Combat",
+      "Value": 234900000
+    },
+    {
+      "Site Name": "Oruze Osobnyk",
+      "Category": "Combat",
+      "Value": 164700000
+    },
+    {
+      "Site Name": "Quarantine Area",
+      "Category": "Combat",
+      "Value": 147000000
+    },
+    {
+      "Site Name": "Instrumental Core Reservoir",
+      "Category": "Gas",
+      "Value": 1235721640
+    },
+    {
+      "Site Name": "Vital Core Reservoir",
+      "Category": "Gas",
+      "Value": 1567328740
+    },
+    {
+      "Site Name": "Unsecured Fronier Enclave Relay",
+      "Category": "Combat Data",
+      "Value": 344900000
+    },
+    {
+      "Site Name": "Unsecured Frontier Server Bank",
+      "Category": "Combat Data",
+      "Value": 332900000
+    },
+    {
+      "Site Name": "Forgotten Core Data Field",
+      "Category": "Combat Relic",
+      "Value": 279000000
+    },
+    {
+      "Site Name": "Forgotten Core Information Pen",
+      "Category": "Combat Relic",
+      "Value": 272100000
+    },
+    {
+      "Site Name": "The Line",
+      "Category": "Combat",
+      "Value": 12000000
+    },
+    {
+      "Site Name": "Perimeter Camp",
+      "Category": "Combat",
+      "Value": 10400000
+    },
+    {
+      "Site Name": "Phase Catalyst Node",
+      "Category": "Combat",
+      "Value": 9000000
+    },
+    {
+      "Site Name": "Perimeter Ambush Point",
+      "Category": "Combat",
+      "Value": 8600000
+    },
+    {
+      "Site Name": "Forgotten Perimeter Coronation Platform",
+      "Category": "Combat Relic",
+      "Value": 12800000
+    },
+    {
+      "Site Name": "Unsecured Perimeter Information Center",
+      "Category": "Combat Data",
+      "Value": 11800000
+    },
+    {
+      "Site Name": "Unsecured Perimeter Amplifier",
+      "Category": "Combat Data",
+      "Value": 10200000
+    },
+    {
+      "Site Name": "Forgotten Perimeter Power Array",
+      "Category": "Combat Relic",
+      "Value": 9200000
+    },
+    {
+      "Site Name": "Perimeter Hangar",
+      "Category": "Combat",
+      "Value": 15600000
+    },
+    {
+      "Site Name": "The Ruins of Enclave Cohort 27",
+      "Category": "Combat",
+      "Value": 15600000
+    },
+    {
+      "Site Name": "Perimeter Checkpoint",
+      "Category": "Combat",
+      "Value": 12900000
+    },
+    {
+      "Site Name": "Sleeper Data Sanctuary",
+      "Category": "Combat",
+      "Value": 11600000
+    },
+    {
+      "Site Name": "Unsecured Perimeter Transponder Farm",
+      "Category": "Combat Data",
+      "Value": 26700000
+    },
+    {
+      "Site Name": "Forgotten Perimete Habitation Coils",
+      "Category": "Combat Relic",
+      "Value": 25400000
+    },
+    {
+      "Site Name": "Unsecured Perimeter Comms Relay",
+      "Category": "Combat Data",
+      "Value": 20200000
+    },
+    {
+      "Site Name": "Forgotten Perimeter Gateway",
+      "Category": "Combat Relic",
+      "Value": 19100000
+    },
+    {
+      "Site Name": "Core Bastion",
+      "Category": "Combat",
+      "Value": 745600000
+    },
+    {
+      "Site Name": "The Mirror",
+      "Category": "Combat",
+      "Value": 663200000
+    },
+    {
+      "Site Name": "Core Citadel",
+      "Category": "Combat",
+      "Value": 610100000
+    },
+    {
+      "Site Name": "Strange Energy Readings",
+      "Category": "Combat",
+      "Value": 591800000
+    },
+    {
+      "Site Name": "Unsecured Core Backup Array",
+      "Category": "Combat Data",
+      "Value": 688300000
+    },
+    {
+      "Site Name": "Forgotten Core Circuitry Disassembler",
+      "Category": "Combat Relic",
+      "Value": 657600000
+    },
+    {
+      "Site Name": "Forgotten Core Assembly Hall",
+      "Category": "Combat Relic",
+      "Value": 642500000
+    },
+    {
+      "Site Name": "Unsecured Core Emergence",
+      "Category": "Combat Data",
+      "Value": 627100000
+    },
+    {
+      "Site Name": "Average Frontier Deposit",
+      "Category": "Ore",
+      "Value": 800000000
+    }
+  ]
