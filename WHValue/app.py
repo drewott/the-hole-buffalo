@@ -6,9 +6,6 @@ import base64
 # Add background image to page
 image_path = Path(__file__).parent / "bison.png"
 
-st.write("Looking for image:", image_path)
-st.write("Image exists:", image_path.exists())
-
 image_data = base64.b64encode(image_path.read_bytes()).decode()
 
 st.markdown(
