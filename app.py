@@ -7,6 +7,9 @@ import base64
 image_path = Path(__file__).parent / "bison.png"
 image_data = base64.b64encode(image_path.read_bytes()).decode()
 
+st.write("Looking for image:", image_path)
+st.write("Image exists:", image_path.exists())
+
 st.markdown(
     f"""
     <style>
