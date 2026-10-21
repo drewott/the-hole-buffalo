@@ -1,5 +1,7 @@
 import streamlit as st
 from src.valuation import parse_pasted_sigs, tally_site_values
+from pathlib import Path
+import base64
 
 # Add background image
 image_path = Path(__file__).parent / "bison.png"
