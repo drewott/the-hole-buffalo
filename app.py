@@ -3,7 +3,22 @@ from src.valuation import parse_pasted_sigs, tally_site_values
 
 # Add background image
 image_path = Path(__file__).parent / "bison.png"
-st.image(str(image_path), use_container_width=True)
+image_data = base64.b64encode(image_path.read_bytes()).decode()
+
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url("data:image/png;base64,{image_data}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.title("The Hole Buffalo")
 
