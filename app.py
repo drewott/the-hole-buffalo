@@ -1,6 +1,10 @@
 import streamlit as st
 from src.valuation import parse_pasted_sigs, tally_site_values
 
+# Add background image
+image_path = Path(__file__).parent / "bison.png"
+st.image(str(image_path), use_container_width=True)
+
 st.title("The Hole Buffalo")
 
 sigs_paste = st.text_area("Paste sites here.", height=300)
