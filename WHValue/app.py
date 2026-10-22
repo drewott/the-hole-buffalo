@@ -23,12 +23,11 @@ st.title("The Hole Buffalo")
 
 #Initialize and add totals boxes
 combat_total_box = st.container()
-combat_total_box.write(
+with combat_total_box:
     st.metric(
         label="Combat Total:",
         value=0
     )
-)
 
 sigs_paste = st.text_area("Paste sites here.", height=300)
 submit_sigs = st.button("Submit Sigs")
