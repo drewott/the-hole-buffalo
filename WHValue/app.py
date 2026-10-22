@@ -20,9 +20,12 @@ st.markdown(
 )
 
 st.title("The Hole Buffalo")
-combat_site_total = st.metric(
+
+#Initialize and add totals boxes
+combat_total = category_totals.get("Combat", 0)
+st.metric(
     label="Combat Total:",
-    value=0
+    value=combat_total
 )
 sigs_paste = st.text_area("Paste sites here.", height=300)
 submit_sigs = st.button("Submit Sigs")
