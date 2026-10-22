@@ -28,13 +28,6 @@ with combat_total_box:
         label="Combat Total:",
         value=0
     )
-# Totals update function
-def update_totals():
-    with combat_total_box:
-        st.metric(
-            label="Combat Total:",
-            value=category_totals.loc["Combat"]
-        )
 
 sigs_paste = st.text_area("Paste sites here.", height=300)
 submit_sigs = st.button("Submit Sigs")
@@ -92,6 +85,9 @@ if st.session_state.site_list is not None:
         .sum()
         .sort_values(ascending=False)
     )
+# Add top boxes for the totals by type
+combat_value = category_totals.get("Combat", 0)
+st.metric("Combat Total:", f"{combat_value:,.0f}")
 
     st.subheader("Value by Site Category")
     for category, value in category_totals.items():
