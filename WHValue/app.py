@@ -40,6 +40,7 @@ if submit_sigs:
     sites.insert(0, "_row_id", range(len(sites)))
     st.session_state.site_list = sites
     st.session_state.pop("sites_editor", None)
+    update_totals()
 
 if st.session_state.site_list is not None:
     sites = st.session_state.site_list.copy()
@@ -88,3 +89,10 @@ if st.session_state.site_list is not None:
     st.subheader("Value by Site Category")
     for category, value in category_totals.items():
         st.write(f"{category}: {value / 1_000_000_000:,.3f} billion")
+
+def update_totals():
+    with combat_total_box:
+        st.metric(
+            label="Combat Total:",
+            value=category_totals.loc["Combat"]
+        )
