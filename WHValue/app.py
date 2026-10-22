@@ -89,6 +89,6 @@ if st.session_state.site_list is not None:
 combat_value = category_totals.get("Combat", 0)
 st.metric("Combat Total:", f"{combat_value:,.0f}")
 
-    st.subheader("Value by Site Category")
-    for category, value in category_totals.items():
-        st.write(f"{category}: {value / 1_000_000_000:,.3f} billion")
+st.subheader("Value by Site Category")
+for category, value in category_totals.items():
+    st.write(f"{category}: {value / 1_000_000_000:,.3f} billion")
