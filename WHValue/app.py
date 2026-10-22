@@ -5,7 +5,6 @@ import base64
 
 # Add background image to page
 image_path = Path(__file__).parent / "bison.png"
-
 image_data = base64.b64encode(image_path.read_bytes()).decode()
 
 st.markdown(
@@ -19,14 +18,18 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# Add static objects for layout
 st.title("The Hole Buffalo")
 
 #Initialize and add totals boxes
-combat_total = category_totals.get("Combat", 0)
-st.metric(
-    label="Combat Total:",
-    value=combat_total
+combat_total_box = st.container()
+combat_total_box.write(
+    st.metric(
+        label="Combat Total:",
+        value=0
+    )
 )
+
 sigs_paste = st.text_area("Paste sites here.", height=300)
 submit_sigs = st.button("Submit Sigs")
 
